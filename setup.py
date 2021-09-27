@@ -4,13 +4,13 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 PROJECT_NAME = "oneNeuron_pypi"
-USER_NAME = "c17hawke"
+USER_NAME = "nkeyan11"
 
 setuptools.setup(
     name=f"{PROJECT_NAME}-{USER_NAME}",
     version="0.0.2",
     author=USER_NAME,
-    author_email="sunny.c17hawke@gmail.com",
+    author_email="nkeyan11@gmail.com",
     description="its an implimentation of Perceptron",
     long_description=long_description,
     long_description_content_type="text/markdown",
